@@ -78,31 +78,5 @@ python main_download_pretrained_models.py --models "SCUNet" --model_dir "model_z
     ```
 
 
-Results on Gaussian denoising
-----------
-<img src="figs/gray_scunet.png" width="900px"/>  
 
-<img src="figs/comparison_scunet.png" width="900px"/>  
-
-
-<img src="figs/color_scunet.png" width="900px"/>  
-
-
-Results on real image denoising
-----------
-<img src="figs/real_scunet.png" width="900px"/>  
-
-
-<img src="figs/real_scunet1.png" width="900px"/>  
-
-
-
-```bibtex
-@article{zhang2022practical,
-title={Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis},
-author={Zhang, Kai and Li, Yawei and Liang, Jingyun and Cao, Jiezhang and Zhang, Yulun and Tang, Hao and Timofte, Radu and Van Gool, Luc},
-journal={arXiv preprint},
-year={2022}
-}
-```
 

@@ -1,7 +1,6 @@
 # _DENOISING_OF_IMAGES_USING_SCU-NET_ARCHITECTURE
 
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet) 
 
 
 

@@ -1,0 +1,10 @@
+23-05-20 12:59:39.511 : Model path: model_zoo\scunet_color_real_psnr.pth
+23-05-20 12:59:39.517 : Params number: 17946072
+23-05-20 12:59:39.518 : model_name:scunet_color_real_psnr
+23-05-20 12:59:39.518 : testsets\real3
+23-05-20 12:59:39.523 :          #Params : 17.9461 [M]
+23-05-20 12:59:39.523 : ---1--> aircraft.png
+23-05-20 13:00:24.073 : ---2--> awg_img_color_noise.png
+23-05-20 13:00:30.124 : ---3--> building.png
+23-05-20 13:00:39.544 : ---4--> images.jpeg
+23-05-20 13:00:45.684 : ---5-->    man.png

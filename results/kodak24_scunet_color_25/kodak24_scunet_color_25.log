@@ -1,0 +1,4 @@
+23-05-20 10:32:52.186 : Model path: model_zoo\scunet_color_25.pth
+23-05-20 10:32:52.198 : Params number: 17946072
+23-05-20 10:32:52.199 : model_name:scunet_color_25, image sigma:25
+23-05-20 10:32:52.199 : testsets\kodak24

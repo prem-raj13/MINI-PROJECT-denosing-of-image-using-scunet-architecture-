@@ -1,12 +1,10 @@
-# _Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis_
+# _DENOISING_OF_IMAGES_USING_SCU-NET_ARCHITECTURE
 
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet) 
 
 
-[[Paper](https://arxiv.org/pdf/2203.13278.pdf)]  [[Online Demo]](https://replicate.com/cszn/scunet)
 
-I can provide the `scunet_color_real_gan.pth` upon request.
 
 __*The following results are obtained by our SCUNet with purely synthetic training data! 
 We did not use the paired noisy/clean data by DND and SIDD during training!*__
@@ -34,12 +32,6 @@ Swin-Conv-UNet (SCUNet) denoising network
 ----------
 <img src="figs/arch_scunet.png" width="900px"/> 
 
-*The architecture of the proposed Swin-Conv-UNet (SCUNet) denoising network. SCUNet exploits the swin-conv (SC) block as
-the main building block of a UNet backbone. In each SC block, the input is first passed through a 1×1 convolution, and subsequently is
-split evenly into two feature map groups, each of which is then fed into a swin transformer (SwinT) block and residual 3×3 convolutional
-(RConv) block, respectively; after that, the outputs of SwinT block and RConv block are concatenated and then passed through a 1×1
-convolution to produce the residual of the input. “SConv” and “TConv” denote 2×2 strided convolution with stride 2 and 2×2 transposed
-convolution with stride 2, respectively.*
 
 
 New data synthesis pipeline for real image denoising

@@ -39,8 +39,7 @@ to produce a corresponding clean image. A paired noisy/clean training patches ar
 Note that, since Poisson noise is signal-dependent, the dashed arrow for “Poisson” means the clean image is used to generate the Poisson
 noise. To tackle with the color shift issue, the dashed arrow for “Camera Sensor” means the reverse-forward tone mapping is performed on
 the clean image.*
-
-<img src="figs/data_scunet.png" width="900px"/> 
+ 
 
 *Synthesized noisy/clean patch pairs via our proposed training data synthesis pipeline. The size of the high quality image patch is
 544×544. The size of the noisy/clean patches is 128×128.*

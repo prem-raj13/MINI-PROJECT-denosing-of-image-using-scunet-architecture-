@@ -34,8 +34,7 @@ Swin-Conv-UNet (SCUNet) denoising network
 
 
 New data synthesis pipeline for real image denoising
-----------
-<img src="figs/pipeline_scunet.png" width="900px"/> 
+ 
 
 *Schematic illustration of the proposed paired training patches synthesis pipeline. For a high quality image, a randomly shuffled
 degradation sequence is performed to produce a noisy image. Meanwhile, the resizing and reverse-forward tone mapping are performed

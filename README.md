@@ -45,8 +45,8 @@ Here we have used the pretrained data model which is tarined on above mentioned 
 The results accuracy is up to the mark and gives a fairly sharped and denoised version of the input image on processing it with our trained model.
 
 
-
-Codes
+*Steps to implement the denoising is below.*
+Codes 
 ---------
 1. Download SCUNet models
 ```python

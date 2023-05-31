@@ -2,11 +2,10 @@
 
 
 
+*For the training purpose of the model ,we have made use of purely synthetic data, instead of the the nosiy-clean pair image dataset.*
 
 
-
-__*The following results are obtained by our SCUNet with purely synthetic training data! 
-We did not use the paired noisy/clean data by DND and SIDD during training!*__
+_
 <p align="left">
   <a href="https://github.com/cszn/SCUNet">
     <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/input_16.gif"/>

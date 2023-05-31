@@ -32,22 +32,20 @@ Swin-Conv-UNet (SCUNet) denoising network
 <img src="figs/arch_scunet.png" width="900px"/> 
 
 
+This is a Image denoising project which is constructed using SCU-NET architecture.
+The "Swin-Conv-Unet" architecture is a combination of two popular deep learning architectures: the "Swin Transformer" and the "U-Net".
+The architecture is used to train the model.
 
-*Schematic illustration of the proposed paired training patches synthesis pipeline. For a high quality image, a randomly shuffled
-degradation sequence is performed to produce a noisy image. Meanwhile, the resizing and reverse-forward tone mapping are performed
-to produce a corresponding clean image. A paired noisy/clean training patches are then cropped for training deep blind denoising model.
-Note that, since Poisson noise is signal-dependent, the dashed arrow for “Poisson” means the clean image is used to generate the Poisson
-noise. To tackle with the color shift issue, the dashed arrow for “Camera Sensor” means the reverse-forward tone mapping is performed on
-the clean image.*
- 
+The *Swin Transformer* is a variant of the transformer architecture originally proposed for natural language processing tasks but adapted for computer vision tasks.
+It replaces the traditional convolutional layers in CNNs with self-attention layers, allowing for global information exchange between image patches.
 
-*Synthesized noisy/clean patch pairs via our proposed training data synthesis pipeline. The size of the high quality image patch is
-544×544. The size of the noisy/clean patches is 128×128.*
+The *U-Net* architecture is commonly used for image segmentation tasks. It consists of an encoder network and a decoder network.
+The encoder extracts high-level features from the input image, while the decoder reconstructs the segmentation map by upsampling and merging features from different resolutions.
+
+Here we have used the pretrained data model which is tarined on above mentioned architecture to deploy this project.
+The results accuracy is up to the mark and gives a fairly sharped and denoised version of the input image on processing it with our trained model.
 
 
-Web Demo
----------
-Try Replicate web demo for SCUNet models here [![Replicate](https://replicate.com/cszn/scunet/badge)](https://replicate.com/cszn/scunet)
 
 Codes
 ---------
